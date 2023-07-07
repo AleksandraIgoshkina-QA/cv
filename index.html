@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+   <!-- Название страницы, которое отображается в верху вкладки браузера -->
+   <title>Александра Игошкина</title>
+   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+   <meta name="viewport" content="width=device-width" initial-scale=1.0>
+   <!-- изображение, отображается перед названием страницы вверху вкладки браузера -->
+   <link rel="icon" href="./image/fav.jpg" type="image/jpg">
+   <!-- подключение файла стилей, который убирает настройки браузера для одинакового отображения страницы во всех браузерах -->
+   <link rel="stylesheet" href="css/resetStyle.css">
+   <!-- подключение файла стилей -->
+   <link rel="stylesheet" href="css/style.css?_v=1">
+</head>
+
+<body>
+   <div class="wrapper">
+      <main class="main">
+         <div class="container">
+            <section class="data">
+               <div class="foto">
+                  <div class="foto__foto">
+                     <!-- Фото -->
+                     <img style="border:1px #d1d1d1  solid;" src="./image/photoweb.png" alt="Фотография">
+                     <img class="small-rotate" src="./image/photoweb.png" alt="" />
+                  </div>
+               </div>
+               <div class="text">
+                  <!-- Имя -->
+                  <div class="name">
+                     <div>АЛЕКСАНДРА <br>ИГОШКИНА<br/></div>
+                  </div>
+                  <div>
+                     <div class="list"><span>Возраст</span><span>:</span><span>28</span></div>
+                     <div class="list"><span>Профессия</span><span>:</span><span>qa-engineer</span></div>
+                     <div class="list"><span>Город</span><span>:</span><span>Вологда</span></div>
+                     <div class="list" style="border:1px #a8626b  solid; width:400px;"><span><br/> - Тестирую сайты и мобильные приложения <p><br/>- Знаю, что такое клиент-серверная архитектура, REST API и SQL</p><br/>
+                     - Дружу с Postman, Charles и Kibana <p><br/><br/> Буду рада работать с Вами :) </p></span></div>
+                  </div>
+               </div>
+            </section>
+                  <div>
+                  <span onClick="clickText()" style="cursor:pointer; font-size:310%;">&#128232</span>
+                  </div>
+                  <div id="info_text" style="display:none;font-size:200%;"> НАПИШИ МНЕ :)</div>
+            <!-- Ссылки -->
+            <section class="links">
+               <div class="link"><a href="https://t.me/sashaigoshkina">Telegram</a></div>
+               <div class="link"><a href="https://vk.com/id15664752">Vkontakte</a></div>
+               <div class="link"><a href="mailto:igoshkina.s@yandex.ru">Email</a></div>
+            </section>
+         </div>
+      </main>
+   </div>
+   <!-- подключение файла javascript -->
+   <script src="script.js"></script>
+</body>
+
+</html>
